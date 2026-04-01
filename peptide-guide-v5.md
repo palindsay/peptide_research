@@ -3,7 +3,7 @@
 
 **Document Version:** 5.0 (Unified Edition — merged v3.1 + v4.0 with live web verification)
 **Last Updated:** April 1, 2026
-**Verification Status:** All PubMed IDs verified. New Phase 3 data incorporated through April 2026. FDA approval status current as of April 1, 2026.
+**Verification Status:** All 41+ PubMed IDs verified against live database April 1, 2026. 22 corrections applied: 7 critical data errors fixed, 4 journal attributions corrected, 3 regulatory status updates (Thymosin Alpha-1 Cat 2 removal, SS-31 enforcement source, elamipretide FDA approval), 2 new PMIDs added, 6 minor updates (pricing, ratings, dosing, estimand labels). FDA approval status current as of April 1, 2026.
 **Data Sources:** [PeptideCritic.com](https://peptidecritic.com) (96 vendors, 75+ peptides) | [Finnrick Analytics](https://www.finnrick.com/vendors) (182 vendors, 6,102 tests) | [GLP-1 Forum](https://glp1forum.com/categories/vendor-connection/) (40,322 members, 125,154 posts) | [PubMed/NCBI](https://pubmed.ncbi.nlm.nih.gov/) | [ClinicalTrials.gov](https://clinicaltrials.gov) | [Wikipedia](https://en.wikipedia.org)
 
 ---
@@ -14,7 +14,7 @@
 |---|---|---|
 | ✅ FDA Approved | Orforglipron | Approved April 1, 2026 (Foundayo); first oral non-peptide GLP-1 RA |
 | 📈 Phase 3 Positive | Retatrutide | TRIUMPH-4: 28.7% weight loss at 68 wk; new dysesthesia signal |
-| 📊 Updated Results | CagriSema | REDEFINE 1: 22.7% WL (NEJM 2025); lost head-to-head vs tirzepatide in REDEFINE 4 |
+| 📊 Updated Results | CagriSema | REDEFINE 1: 22.7% WL efficacy estimand / 20.4% ITT (NEJM 2025); lost head-to-head vs tirzepatide in REDEFINE 4 |
 | 🆕 New Compound | Eloralintide | Selective AMY1R agonist; Phase 2: −20.1% WL at 48 wk |
 | ⬇ Safety Downgrade | MK-677 | ★★★★☆ → ★★★☆☆; long-term diabetogenic risk confirmed |
 | ⬇ Safety Downgrade | Tesofensine | ★★★☆☆ → ★★☆☆☆; cardiovascular/psychiatric risk profile |
@@ -22,8 +22,8 @@
 | 🚫 FDA Compounding Ban | BPC-157 | Category 2 list Sept 2023; DOJ enforcement active |
 | 🚫 FDA Compounding Ban | TB-500 | FDA compounding prohibition; theoretical immune risks |
 | 🚫 FDA Compounding Ban | LL-37 | Compounding ban + cytotoxicity warning at 1–10 µM |
-| 🚫 FDA Compounding Ban | Thymosin Alpha-1 | Compounding ban (formulation impurity risk) |
-| 🚫 Enforcement | SS-31 | Major vendors removed after FDA cease-and-desist |
+| ⚠ Regulatory Update | Thymosin Alpha-1 | Category 2 ban Sept 2023 → **removed from Category 2 Sept 2024**; PCAC review pending |
+| 🚫 Enforcement | SS-31 | Major vendors removed after patent holder (Stealth BioTherapeutics) cease-and-desist; FDA approved for Barth syndrome Sept 2025 |
 | ⚠ Vendor Alert | Amino Asylum | Federal raid June 2025; shut down |
 | ⚠ Vendor Alert | Modern Aminos | Bunk Selank confirmed by community |
 | 🆕 New Compound | GHRP-2/GHRP-6/Hexarelin | CD36 cardioprotective mechanism; first-gen GHRPs |
@@ -96,10 +96,10 @@ Every compound contains 13 standardized fields. All PubMed references link direc
 | Tirzepatide | GLP-1, GIP | ~22.5% | ★★★★★ | FDA-approved; superior efficacy |
 | Retatrutide | GLP-1, GIP, Glucagon | ~28.7% (Ph3) | ★★★★☆ | Phase 3 (TRIUMPH); NDA projected 2027 |
 | Eloralintide | Amylin (AMY1R) | ~20.1% | ★★★☆☆ | Phase 3 initiated 2025 |
-| CagriSema | Amylin + GLP-1 | ~22.7% | ★★★★☆ | NDA submitted Dec 2025 |
-| Orforglipron | GLP-1 (oral) | ~11.2% | ★★★★☆ | **FDA-approved April 1, 2026 (Foundayo)** |
-| Survodutide | GLP-1, Glucagon | ~18.7% | ★★★☆☆ | Phase 3 SYNCHRONIZE ongoing |
-| Tesofensine | 5-HT, NE, DA | ~12.8 kg | ★★☆☆☆ | Phase 2/3; cardiac/psychiatric risks |
+| CagriSema | Amylin + GLP-1 | ~22.7% (efficacy) / ~20.4% (ITT) | ★★★★☆ | NDA submitted Dec 2025 |
+| Orforglipron | GLP-1 (oral) | ~11.2% (36 mg trial dose) | ★★★★★ | **FDA-approved April 1, 2026 (Foundayo)** |
+| Survodutide | GLP-1, Glucagon | ~14.9–18.7% (Ph2 4.8 mg) | ★★★☆☆ | Phase 3 SYNCHRONIZE ongoing |
+| Tesofensine | 5-HT, NE, DA | ~9.2% (0.5 mg) | ★★☆☆☆ | Phase 2/3; cardiac/psychiatric risks |
 
 ---
 
@@ -170,9 +170,9 @@ Every compound contains 13 standardized fields. All PubMed references link direc
 | **Also Known As** | BI 456906, GLP-1/GCGR dual agonist |
 | **Category** | Dual GLP-1/Glucagon Receptor Agonist |
 | **Mechanism** | Activates GLP-1R and GCGR. Glucagon axis increases hepatic energy expenditure and fat oxidation. Developed by Boehringer Ingelheim. |
-| **Efficacy Data** | Phase 2: −18.7% body weight at 46 wk with 6 mg vs −2.8% placebo ([PMID 38330987](https://pubmed.ncbi.nlm.nih.gov/38330987/)). NASH: significant liver fat reduction. Phase 3 SYNCHRONIZE underway ([PMID 39495965](https://pubmed.ncbi.nlm.nih.gov/39495965/)). |
-| **Human Benefits** | ~19% weight loss; pronounced liver fat reduction (NASH potential); improved glycemic control; elevated energy expenditure via glucagon axis. |
-| **Typical Dosing** | Start 0.3 mg SC weekly, escalate to 6.0 mg over ~20 wk. |
+| **Efficacy Data** | Phase 2: −14.9% (planned treatment) / −18.7% (actual treatment estimand) at 46 wk with 4.8 mg (highest Phase 2 dose) vs −2.8% placebo ([PMID 38330987](https://pubmed.ncbi.nlm.nih.gov/38330987/)). NASH: significant liver fat reduction. Phase 3 SYNCHRONIZE underway with doses up to 6.0 mg ([PMID 39495965](https://pubmed.ncbi.nlm.nih.gov/39495965/)). |
+| **Human Benefits** | ~15–19% weight loss (estimand-dependent); pronounced liver fat reduction (NASH potential); improved glycemic control; elevated energy expenditure via glucagon axis. |
+| **Typical Dosing** | Phase 2: Start 0.3 mg SC weekly, escalate to 4.8 mg over ~20 wk. Phase 3 (SYNCHRONIZE): escalation to 6.0 mg. |
 | **Side Effects** | Nausea (33–49%), diarrhea (19–28%), vomiting (15–21%). Higher GI rate than semaglutide. |
 | **Human Research** | Phase 2 completed. Phase 3 SYNCHRONIZE program underway. |
 | **Safety Rating** | ★★★☆☆ |
@@ -190,7 +190,7 @@ Every compound contains 13 standardized fields. All PubMed references link direc
 | **Also Known As** | NN9838, AM833, long-acting amylin analog; CagriSema = cagrilintide + semaglutide |
 | **Category** | Amylin Receptor Agonist (+ GLP-1 combination) |
 | **Mechanism** | Long-acting amylin analog. Activates amylin receptors (calcitonin receptor + RAMP) in area postrema and hypothalamus. Slows gastric emptying, suppresses glucagon, promotes satiety. Complementary to GLP-1 pathway. |
-| **Efficacy Data** | Phase 2 monotherapy: −10.8% at 26 wk with 2.4 mg ([PMID 34798060](https://pubmed.ncbi.nlm.nih.gov/34798060/)). **REDEFINE 1** (NEJM, June 2025): CagriSema 22.7% WL (treatment-policy estimand) at 68 wk; 60% achieved ≥20% loss; 23% lost ≥30%; 88% of prediabetes patients normalized glycemia ([PMID 40544433](https://pubmed.ncbi.nlm.nih.gov/40544433/)). REDEFINE 2 (T2DM): −13.7% vs −3.4% placebo ([PMID 40544432](https://pubmed.ncbi.nlm.nih.gov/40544432/)). **REDEFINE 4** (head-to-head vs tirzepatide 15 mg, 84 wk): CagriSema 23.0% vs tirzepatide **25.5%** — CagriSema lost head-to-head. NDA submitted to FDA December 2025; decision expected late 2026. |
+| **Efficacy Data** | Phase 2 monotherapy: −10.8% at 26 wk with 4.5 mg (max dose tested) ([PMID 34798060](https://pubmed.ncbi.nlm.nih.gov/34798060/)). **REDEFINE 1** (NEJM, June 2025): CagriSema 22.7% WL (efficacy estimand) / 20.4% (treatment-policy estimand) at 68 wk; 60% achieved ≥20% loss; 23% lost ≥30%; 88% of prediabetes patients normalized glycemia ([PMID 40544433](https://pubmed.ncbi.nlm.nih.gov/40544433/)). REDEFINE 2 (T2DM): −13.7% vs −3.4% placebo ([PMID 40544432](https://pubmed.ncbi.nlm.nih.gov/40544432/)). **REDEFINE 4** (head-to-head vs tirzepatide 15 mg, 84 wk): CagriSema 23.0% vs tirzepatide **25.5%** — CagriSema lost head-to-head. NDA submitted to FDA December 2025; decision expected late 2026. |
 | **Human Benefits** | >22% weight loss via additive amylin + GLP-1 pathways; robust glycemic normalization; strong prediabetes reversal; plateau-breaking potential. |
 | **Typical Dosing** | Monotherapy cagrilintide: 1.2–4.5 mg SC weekly. CagriSema fixed combo: 2.4 mg + 2.4 mg SC weekly. |
 | **Side Effects** | Nausea (20–41%), diarrhea (10–18%), vomiting (8–14%), injection-site reactions (8%). CagriSema has higher GI AEs than either component alone. |
@@ -210,7 +210,7 @@ Every compound contains 13 standardized fields. All PubMed references link direc
 | **Also Known As** | LY3841136, selective amylin receptor agonist |
 | **Category** | Selective Amylin Receptor Agonist (AMY1R) |
 | **Mechanism** | Novel once-weekly selective AMY1R agonist — distinct from cagrilintide, which is a dual amylin/calcitonin receptor agonist. Acts centrally to regulate appetite, slows gastric emptying, modulates metabolism. Operates entirely independent of GLP-1/GIP incretin pathways, enabling non-overlapping combination potential. |
-| **Efficacy Data** | Phase 2 (Lancet, Nov 2025, n=263, 48 wk): 9 mg dose: −20.1% (efficacy estimand); 6→9 mg escalation: −19.9%; 92% of 6→9 mg group achieved ≥10% WL; waist circumference reduced up to 17.1 cm; weight loss had not plateaued at 48 wk ([PMID 41109426](https://pubmed.ncbi.nlm.nih.gov/41109426/)). Dose range tested: 1, 3, 6, 9 mg weekly. |
+| **Efficacy Data** | Phase 2 (Lancet, Nov 2025, n=263, 48 wk): 9 mg dose: −20.1% (efficacy estimand); 6→9 mg escalation: −19.9%; 92% of 6→9 mg group achieved ≥10% WL; waist circumference reduced up to 17.1 cm; weight loss had not plateaued at 48 wk ([PMID 41207310](https://pubmed.ncbi.nlm.nih.gov/41207310/)). Dose range tested: 1, 3, 6, 9 mg weekly. |
 | **Human Benefits** | Up to 20% weight loss via non-incretin pathway; dose-dependent efficacy; improved lipid profiles; improved cardiometabolic markers; additive potential with GLP-1/GIP agents. |
 | **Typical Dosing** | Phase 2: 1→3→6→9 mg SC weekly escalation. Phase 3 protocol pending. |
 | **Side Effects** | Nausea (mild-moderate, transient); fatigue (26.9% pooled vs 11.5% placebo, up to 45.8% in 6→9 mg group); reports of malaise and affective disorders (attributed to caloric deficit mechanism, not direct psychiatric effect). GI tolerability appears favorable vs GLP-1 RAs. No deaths in trial. |
@@ -218,7 +218,7 @@ Every compound contains 13 standardized fields. All PubMed references link direc
 | **Safety Rating** | ★★★☆☆ |
 | **Legal Status** | Investigational. Not approved. Phase 3 ongoing. Not yet on research market. |
 | **Price Range** | Not yet widely available from research vendors. |
-| **Key References** | [PMID 41109426](https://pubmed.ncbi.nlm.nih.gov/41109426/) (Phase 2 Lancet 2025) · [ClinicalTrials NCT07282600](https://clinicaltrials.gov/study/NCT07282600) |
+| **Key References** | [PMID 41207310](https://pubmed.ncbi.nlm.nih.gov/41207310/) (Phase 2 Lancet 2025) · [ClinicalTrials NCT07282600](https://clinicaltrials.gov/study/NCT07282600) |
 | **Social Media Signals** | 🆕 Emerging — Strong emerging signal due to 20%+ WL via independent biological pathway. Community monitoring Phase 3 initiation closely. |
 
 ---
@@ -230,14 +230,14 @@ Every compound contains 13 standardized fields. All PubMed references link direc
 | **Also Known As** | LY3502970, Foundayo, oral non-peptide GLP-1 RA |
 | **Category** | Oral Non-Peptide Small Molecule GLP-1 Receptor Agonist |
 | **Mechanism** | Once-daily oral spiropiperidine-based small molecule (not a peptide) GLP-1 receptor agonist. Can be taken any time of day without food or water restrictions — distinguishing it from oral semaglutide (Rybelsus), which requires 30-min fasting window. Discovered by Chugai Pharmaceutical, licensed and developed by Eli Lilly. |
-| **Efficacy Data** | ATTAIN-1 Phase 3 (NEJM, 2025): −11.2% body weight at 36 mg dose, 72 wk vs −2.1% placebo (n=3,127); 54.6% achieved ≥10% WL ([PMID 40960239](https://pubmed.ncbi.nlm.nih.gov/40960239/)). ATTAIN-2 (T2DM): −10.5% at 72 wk; A1C −1.8%. ATTAIN-MAINTAIN: successfully maintained weight loss after switching from injectable semaglutide or tirzepatide. ⚠ Efficacy (~11%) is notably lower than injectable semaglutide (~15%) and tirzepatide (~21%). |
+| **Efficacy Data** | ATTAIN-1 Phase 3 (NEJM, 2025): −11.2% body weight at 36 mg dose (highest trial dose), 72 wk vs −2.1% placebo (n=3,127); 54.6% achieved ≥10% WL ([PMID 40960239](https://pubmed.ncbi.nlm.nih.gov/40960239/)). ⚠ Note: FDA-approved max dose is 17.2 mg per label; the 36 mg trial dose exceeds the approved range — real-world efficacy at approved doses may be lower. ATTAIN-2 (T2DM): −10.5% at 72 wk; A1C −1.8%. ATTAIN-MAINTAIN: successfully maintained weight loss after switching from injectable semaglutide or tirzepatide. ⚠ Efficacy (~11%) is notably lower than injectable semaglutide (~15%) and tirzepatide (~21%). |
 | **Human Benefits** | Eliminates need for subcutaneous injection; no food/water restrictions; robust metabolic control; effective maintenance therapy after injectable incretins; no cold-chain storage required. |
-| **Typical Dosing** | Oral: escalation from 0.8 mg → 17.2 mg over months (multiple intermediate doses). Approved doses per label. |
+| **Typical Dosing** | Oral (FDA label): Start 0.8 mg daily, increase to 2.5 mg after ≥30 days, then 5.5 mg after ≥30 days. May further increase to 9→14.5→17.2 mg (approved max) at ≥30-day intervals based on response/tolerability. Note: ATTAIN-1 trial tested up to 36 mg (above approved max). |
 | **Side Effects** | GI profile consistent with GLP-1 class: nausea, diarrhea, vomiting (mild-to-moderate). Treatment discontinuation 5.3–10.3%. No hepatic safety signal. Boxed warning: thyroid C-cell tumors (class effect). |
 | **Human Research** | Phase 3 complete (ATTAIN-1/2/MAINTAIN, ACHIEVE-1/2/5). **FDA approved April 1, 2026 (brand name: Foundayo)** for chronic weight management in adults. First NME approved under FDA National Priority Voucher program. T2DM indication submission anticipated 2026. |
-| **Safety Rating** | ★★★★☆ |
+| **Safety Rating** | ★★★★★ |
 | **Legal Status** | **FDA-approved (Rx) — April 1, 2026. Brand: Foundayo.** Approved for obesity/overweight + comorbidity. |
-| **Price Range** | ~$299/month (US list price at launch). Lower than injectable GLP-1 agents. |
+| **Price Range** | Self-pay: starting at $149/month (lowest dose) via LillyDirect. Commercial insurance with savings card: as low as $25/month. Medicare Part D eligible: $50/month (from July 2026). Significantly lower than injectable GLP-1 agents. |
 | **Key References** | [PMID 40960239](https://pubmed.ncbi.nlm.nih.gov/40960239/) (ATTAIN-1 NEJM 2025) · [FDA Approval Press Release](https://www.fda.gov/news-events/press-announcements/) |
 | **Social Media Signals** | 🔥🔥 High — Tracked extensively on GLP-1 Forum as "ultimate maintenance medication." Strong interest for injection-averse patients and travel convenience. $299/mo pricing driving high conversion interest. |
 
@@ -250,7 +250,7 @@ Every compound contains 13 standardized fields. All PubMed references link direc
 | **Also Known As** | NS2330, triple monoamine reuptake inhibitor |
 | **Category** | Triple Monoamine Reuptake Inhibitor (small molecule, not peptide) |
 | **Mechanism** | Inhibits reuptake of norepinephrine, dopamine, and serotonin. Reduces appetite and increases thermogenesis. Originally developed for Alzheimer's; weight loss discovered as side effect. D1/D5 dopaminergic interactions carry cardiovascular and psychiatric risk. |
-| **Efficacy Data** | TIPO-1 Phase 2: −10.6% body weight at 24 wk with 0.5 mg vs −2.2% placebo (n=203) ([PMID 18950853](https://pubmed.ncbi.nlm.nih.gov/18950853/)). Higher doses (1.0 mg): −12.8% but more side effects. |
+| **Efficacy Data** | TIPO-1 Phase 2: −9.2% body weight at 24 wk with 0.5 mg vs placebo (n=203) ([PMID 18950853](https://pubmed.ncbi.nlm.nih.gov/18950853/)). Higher doses (1.0 mg): greater weight loss but more side effects. |
 | **Human Benefits** | Significant appetite suppression; ~10–13% weight loss; potential mood enhancement via dopamine; increased energy expenditure. |
 | **Typical Dosing** | Oral: 0.25–0.5 mg daily. Start 0.25 mg × 2 wk then 0.5 mg. |
 | **Side Effects** | Dry mouth (28%), insomnia (18%), nausea (16%), constipation (14%), HR increase (+8–12 bpm). CVD and psychiatric monitoring required. D1/D5 dopaminergic interactions have historically halted similar drugs in Phase 3. |
@@ -274,15 +274,15 @@ Every compound contains 13 standardized fields. All PubMed references link direc
 | **Also Known As** | TH9507, Egrifta/Egrifta SV, GHRH(1-44) analog |
 | **Category** | GHRH Analog |
 | **Mechanism** | Stabilized GHRH(1-44) analog with trans-3-hexenoic acid acylation. Stimulates pulsatile GH release from anterior pituitary. ([Wikipedia](https://en.wikipedia.org/wiki/Tesamorelin)) |
-| **Efficacy Data** | Phase III: −18% VAT reduction at 26 wk vs placebo ([PMID 25038357](https://pubmed.ncbi.nlm.nih.gov/25038357/)). IGF-1 increase: +81 ng/mL. Neurocognitive benefit in HIV ([PMID 39813152](https://pubmed.ncbi.nlm.nih.gov/39813152/)). |
-| **Human Benefits** | Reduced visceral fat; increased GH/IGF-1; improved body composition; potential cognitive benefits; reduced liver fat; improved triglycerides. |
+| **Efficacy Data** | Phase III: −34 cm² VAT reduction at 26 wk vs placebo ([PMID 25038357](https://pubmed.ncbi.nlm.nih.gov/25038357/)); ~18% VAT reduction at 12 months in extension ([PMID 20101189](https://pubmed.ncbi.nlm.nih.gov/20101189/)). IGF-1 increase: +81 ng/mL. Neurocognitive trend in HIV (not statistically significant vs standard care) ([PMID 39813152](https://pubmed.ncbi.nlm.nih.gov/39813152/)). |
+| **Human Benefits** | Reduced visceral fat; increased GH/IGF-1; improved body composition; potential cognitive benefits (trend, not yet statistically confirmed); reduced liver fat; improved triglycerides. |
 | **Typical Dosing** | FDA-approved: 2 mg SC daily (abdomen). Research: 1–2 mg SC daily, at bedtime or morning fasted. |
 | **Side Effects** | Injection-site reactions (8–25%), arthralgia (13%), peripheral edema (6%), myalgia (4%), carpal tunnel (2–4%). Contraindicated in active malignancy. |
 | **Human Research** | Phase III completed. FDA-approved (Nov 2010, Egrifta; 2019, Egrifta SV) for HIV lipodystrophy. |
 | **Safety Rating** | ★★★★★ |
 | **Legal Status** | FDA-approved (Rx). [67 vendors on PeptideCritic](https://peptidecritic.com/peptides/tesamorelin) ($0.65–$52.00/mg). |
 | **Price Range** | Pharmaceutical: ~$800–1,500/month. Research: $0.65–$52.00/mg (avg $9.01). |
-| **Key References** | [PMID 25038357](https://pubmed.ncbi.nlm.nih.gov/25038357/) (VAT JAMA) · [PMID 39813152](https://pubmed.ncbi.nlm.nih.gov/39813152/) (Neurocognitive) |
+| **Key References** | [PMID 25038357](https://pubmed.ncbi.nlm.nih.gov/25038357/) (VAT reduction, JAMA 2014) · [PMID 20101189](https://pubmed.ncbi.nlm.nih.gov/20101189/) (~18% VAT at 12 mo, Falutz 2010) · [PMID 39813152](https://pubmed.ncbi.nlm.nih.gov/39813152/) (Neurocognitive trend, J Infect Dis 2025) |
 | **Social Media Signals** | 🔥🔥 High — Preferred over sermorelin by experienced users. "Should I take Tesamorelin or HGH and TRT?" active thread on GLP-1 Forum. |
 
 ---
@@ -354,7 +354,7 @@ Every compound contains 13 standardized fields. All PubMed references link direc
 | **Also Known As** | Ibutamoren, MK-0677, L-163,191 |
 | **Category** | Non-Peptide Oral GH Secretagogue |
 | **Mechanism** | Orally active non-peptide ghrelin mimetic. Activates GHS-R1a. Increases GH/IGF-1 through sustained 24-hour elevation. ([Wikipedia](https://en.wikipedia.org/wiki/Ibutamoren)) |
-| **Efficacy Data** | IGF-1 increase 40–97% sustained over 12 months. Improved lean body mass +1.8 kg at 8 wk ([PMID 9467534](https://pubmed.ncbi.nlm.nih.gov/9467534/)). Bone density improvement in elderly. 2+ year safety data available. |
+| **Efficacy Data** | IGF-1 increase 40–97% sustained over 12 months. Reversed diet-induced nitrogen catabolism ([PMID 9467534](https://pubmed.ncbi.nlm.nih.gov/9467534/)). Increased fat-free mass and energy expenditure in obese subjects at 8 wk ([PMID 9467542](https://pubmed.ncbi.nlm.nih.gov/9467542/), Svensson et al. 1998). Bone density improvement in elderly. 2+ year safety data available. |
 | **Human Benefits** | Oral GH/IGF-1 increase; improved sleep; increased lean muscle; improved bone density; appetite stimulation. |
 | **Typical Dosing** | Oral: 10–25 mg daily. Most common: 25 mg at bedtime. Continuous or cycled (8–12 wk on, 4 wk off). |
 | **Side Effects** | Increased appetite (very common), water retention, lethargy, mild blood sugar elevation, joint stiffness. **⚠ Long-term diabetogenic risk:** Notable persistent fasting blood glucose elevation driven by significant insulin resistance, especially in predisposed individuals. |
@@ -362,7 +362,7 @@ Every compound contains 13 standardized fields. All PubMed references link direc
 | **Safety Rating** | ★★★☆☆ ⬇ (downgraded from ★★★★☆ — long-term diabetogenic potential confirmed) |
 | **Legal Status** | Not FDA-approved. Not controlled in most jurisdictions. [PeptideCritic](https://peptidecritic.com/peptides/mk-677-ibutamoren-tablets). |
 | **Price Range** | Tablet form varies. |
-| **Key References** | [PMID 9467534](https://pubmed.ncbi.nlm.nih.gov/9467534/) (Body composition) · [Wikipedia](https://en.wikipedia.org/wiki/Ibutamoren) |
+| **Key References** | [PMID 9467534](https://pubmed.ncbi.nlm.nih.gov/9467534/) (Nitrogen catabolism reversal) · [PMID 9467542](https://pubmed.ncbi.nlm.nih.gov/9467542/) (Fat-free mass increase, Svensson 1998) · [Wikipedia](https://en.wikipedia.org/wiki/Ibutamoren) |
 | **Social Media Signals** | 🔥🔥 High — Very popular (no injections). Sleep improvement top benefit. Blood sugar monitoring now routinely recommended by community. |
 
 ---
@@ -418,13 +418,13 @@ Every compound contains 13 standardized fields. All PubMed references link direc
 | **Also Known As** | Body Protection Compound 157, Bepecin, PL 14736, Gastric pentadecapeptide |
 | **Category** | Healing / Cytoprotective Peptide |
 | **Mechanism** | 15-aa gastric juice fragment. Modulates NO signaling, VEGF-mediated angiogenesis, FAK-paxillin pathway, fibroblast migration, collagen synthesis. Influences dopaminergic, serotonergic, GABAergic systems. |
-| **Efficacy Data** | Preclinical only: accelerated healing of tendons, ligaments, muscle, bone, skin, GI ulcers in animal models. ⚠ Vast majority of research from single lab (Sikiric et al., University of Zagreb) ([PMID 30915550](https://pubmed.ncbi.nlm.nih.gov/30915550/)). Independent replication limited. No completed Phase II/III human trials as of April 2026. |
+| **Efficacy Data** | Preclinical only: accelerated healing of tendons, ligaments, muscle, bone, skin, GI ulcers in animal models. ⚠ Vast majority of primary research from single lab (Sikiric et al., University of Zagreb). Independent review: ([PMID 30915550](https://pubmed.ncbi.nlm.nih.gov/30915550/), Gwyer et al., Loughborough University). Independent replication limited. No completed Phase II/III human trials as of April 2026. |
 | **Human Benefits** | No confirmed human trial data. Purported (preclinical + anecdotal): injury recovery, gut healing, reduced inflammation, neuroprotection. |
 | **Typical Dosing** | Systemic: 200–500 mcg SC, 1–2× daily. Oral (GI): 250–500 mcg 2× daily. Duration: 4–8 weeks. |
 | **Side Effects** | No documented serious AEs in animal studies. Anecdotal: minimal. Theoretical: angiogenesis may worsen tumors (unproven). Very limited human safety data. |
-| **Human Research** | No Phase II/III. Nearly all primary research from Sikiric lab ([PMID 30915550](https://pubmed.ncbi.nlm.nih.gov/30915550/)). Only one small retrospective human series as of 2024. |
+| **Human Research** | No Phase II/III. Nearly all primary research from Sikiric lab. Independent review: [PMID 30915550](https://pubmed.ncbi.nlm.nih.gov/30915550/) (Gwyer et al.). Only one small retrospective human series as of 2024. |
 | **Safety Rating** | ★★☆☆☆ |
-| **Legal Status** | **🚫 FDA Compounding Ban:** Added to Category 2 Bulk Drug Substance list September 29, 2023 — prohibited from licensed compounding pharmacies. Rationale: immunogenicity risk, peptide-related impurities, insufficient safety data. **DOJ Enforcement:** Tailor Made Compounding LLC pleaded guilty, forfeiting $1.79M. **Amino Asylum** shut down after federal raid June 2025. **WADA-banned** under S0 (Non-Approved Substances) since 2022. Research-chemical sales ("not for human consumption") persist but are legally precarious. [69 vendors on PeptideCritic](https://peptidecritic.com/peptides/bpc-157). |
+| **Legal Status** | **🚫 FDA Compounding Ban:** Added to Category 2 Bulk Drug Substance list September 29, 2023 — prohibited from licensed compounding pharmacies. Rationale: immunogenicity risk, peptide-related impurities, insufficient safety data. **DOJ Enforcement:** Tailor Made Compounding LLC pleaded guilty, forfeiting $1.79M. **Amino Asylum** shut down after federal raid June 2025. **WADA-banned** under S0 (Non-Approved Substances) since 2022. Research-chemical sales ("not for human consumption") persist but are legally precarious. **⚠ Feb 2026 update:** HHS Secretary RFK Jr. announced some Category 2 peptides may return to Category 1, pending formal FDA publication — reclassification status not yet finalized as of April 2026. [69 vendors on PeptideCritic](https://peptidecritic.com/peptides/bpc-157). |
 | **Price Range** | $0.98–$240.00/mg (avg $9.99); [69 vendors](https://peptidecritic.com/peptides/bpc-157). BPC-157 below ~$15/5mg vial is a red flag for purity compromise. |
 | **Key References** | [PMID 30915550](https://pubmed.ncbi.nlm.nih.gov/30915550/) (Comprehensive review) · [FDA Category 2 List](https://www.fda.gov/drugs/human-drug-compounding/certain-bulk-drug-substances-use-compounding-may-present-significant-safety-risks) |
 | **Social Media Signals** | 🔥🔥🔥 Very High — Most discussed non-GLP-1 peptide despite regulatory headwinds. Community interest sustained by anecdotal injury recovery reports. Regulatory warnings increasingly prominent in threads. |
@@ -444,7 +444,7 @@ Every compound contains 13 standardized fields. All PubMed references link direc
 | **Side Effects** | Mild: injection-site reactions, lethargy (transient). Theoretical: angiogenesis/cancer concern. |
 | **Human Research** | Phase I (cardiac), Phase II (dermal, corneal). Multiple RegeneRx studies. **⚠ FDA compounding prohibition** — added to restricted list due to theoretical immune reaction risks and manufacturing impurity concerns. Not FDA-approved. |
 | **Safety Rating** | ★★★☆☆ |
-| **Legal Status** | Not FDA-approved. FDA compounding ban in effect. Available from research vendors. [PeptideCritic](https://peptidecritic.com/peptides/thymosin-beta-4). |
+| **Legal Status** | Not FDA-approved. FDA Category 2 compounding ban in effect (Sept 2023). ⚠ Potential reclassification to Category 1 pending per Feb 2026 HHS announcement — not yet finalized. Available from research vendors. [PeptideCritic](https://peptidecritic.com/peptides/thymosin-beta-4). |
 | **Price Range** | Research: $1.50–$15.00/mg. |
 | **Key References** | [PMID 19668473](https://pubmed.ncbi.nlm.nih.gov/19668473/) (Corneal healing) · [Wikipedia: Thymosin β4](https://en.wikipedia.org/wiki/Thymosin_beta-4) |
 | **Social Media Signals** | 🔥🔥 High — "BPC/TB-500 stack" universally discussed. "Wolverine" blend (BPC + TB) widely sold. |
@@ -486,9 +486,9 @@ Every compound contains 13 standardized fields. All PubMed references link direc
 | **Human Benefits** | Immune enhancement; improved vaccine response; adjunctive cancer therapy; hepatitis support; sepsis mortality reduction. Post-COVID immune optimization. |
 | **Typical Dosing** | Clinical: 1.6 mg SC 2× weekly. Oncology: 1.6 mg daily × 5 d then 2× weekly. |
 | **Side Effects** | Very well-tolerated. Rare injection-site reactions. No significant immunosuppression or organ toxicity. One of safest peptide profiles. |
-| **Human Research** | Approved in multiple countries (China, India, others) for hepatitis B/C, immune modulation. Over 4,400 PubMed publications. Phase III data. **⚠ FDA compounding ban** — prohibited due to perceived anaphylaxis risk from formulation impurities. Not FDA-approved in US. |
+| **Human Research** | Approved in multiple countries (China, India, others) for hepatitis B/C, immune modulation. Over 4,400 PubMed publications. Phase III data. **⚠ FDA Category 2 status update:** Initially placed on Category 2 list Sept 2023, but **removed from Category 2 on Sept 27, 2024** (nomination withdrawn). Scheduled for PCAC review Dec 2024. Not FDA-approved in US. |
 | **Safety Rating** | ★★★★★ |
-| **Legal Status** | Approved in multiple countries (not US/EU). FDA compounding ban in effect in US. [PeptideCritic](https://peptidecritic.com/peptides/thymosin-alpha-1). |
+| **Legal Status** | Approved in multiple countries (not US/EU). FDA Category 2 ban **removed Sept 2024** — pending PCAC review for potential Category 1 inclusion. [PeptideCritic](https://peptidecritic.com/peptides/thymosin-alpha-1). |
 | **Price Range** | Research: $2–$18/mg. |
 | **Key References** | [PMID 11137613](https://pubmed.ncbi.nlm.nih.gov/11137613/) (Cancer adjunct) · [PMID 27450734](https://pubmed.ncbi.nlm.nih.gov/27450734/) (Immune modulation) · [Wikipedia](https://en.wikipedia.org/wiki/Thymosin_%CE%B11) |
 | **Social Media Signals** | 🔥 Moderate — Post-COVID immune optimization interest. Respected for large evidence base. |
@@ -614,11 +614,11 @@ Every compound contains 13 standardized fields. All PubMed references link direc
 | **Human Benefits** | Potential mitochondrial function improvement; exercise capacity; cardiac support. Better preclinical than clinical evidence to date. |
 | **Typical Dosing** | Clinical: 4 mg SC daily or 40 mg single dose. Research: 1–5 mg SC daily. |
 | **Side Effects** | Injection-site reactions, headache. Generally well-tolerated. No organ toxicity. |
-| **Human Research** | Multiple Phase II/III. Fast Track/Orphan Drug for Barth syndrome. Mixed results. ⚠ **Major vendors (e.g., PeptideSciences) removed SS-31 following targeted FDA cease-and-desist actions.** |
+| **Human Research** | Multiple Phase II/III. Fast Track/Orphan Drug for Barth syndrome. Mixed results. ⚠ **Major vendors (e.g., PeptideSciences) removed SS-31 following targeted cease-and-desist actions from patent holder Stealth BioTherapeutics (IP enforcement, not FDA regulatory action).** Elamipretide approved by FDA Sept 2025 (brand: Forzinity) for Barth syndrome. |
 | **Safety Rating** | ★★★☆☆ |
-| **Legal Status** | Investigational. FDA enforcement actions against vendors ongoing. [PeptideCritic](https://peptidecritic.com/peptides/ss-31). |
+| **Legal Status** | Investigational for most indications. FDA-approved Sept 2025 for Barth syndrome (Forzinity). Patent holder IP enforcement against research vendors ongoing. [PeptideCritic](https://peptidecritic.com/peptides/ss-31). |
 | **Price Range** | Research: $5–$25/mg (availability reduced due to enforcement). |
-| **Key References** | [PMID 32068002](https://pubmed.ncbi.nlm.nih.gov/32068002/) (PROGRESS-HF JACC) · [Wikipedia](https://en.wikipedia.org/wiki/Elamipretide) |
+| **Key References** | [PMID 32068002](https://pubmed.ncbi.nlm.nih.gov/32068002/) (PROGRESS-HF, J Card Fail 2020) · [Wikipedia](https://en.wikipedia.org/wiki/Elamipretide) |
 | **Social Media Signals** | 🔥🔥 High — "SS-31 + MOTS-c vs NAD+" (244 replies on GLP-1 Forum). Stacking with MOTS-c popular. Sourcing increasingly difficult. |
 
 ---
@@ -650,7 +650,7 @@ Every compound contains 13 standardized fields. All PubMed references link direc
 | **Also Known As** | Nicotinamide adenine dinucleotide; NMN = nicotinamide mononucleotide; NR = nicotinamide riboside |
 | **Category** | Coenzyme / Longevity Molecule (not a peptide) |
 | **Mechanism** | Essential coenzyme in energy metabolism. Substrate for sirtuins, PARPs, CD38. NAD+ declines ~50% between ages 40–60. NMN and NR are oral precursors that raise intracellular NAD+ levels. |
-| **Efficacy Data** | NMN: improved muscle insulin sensitivity in prediabetic women ([PMID 33888596](https://pubmed.ncbi.nlm.nih.gov/33888596/), Science 2021). NR: elevated blood NAD+ 40–90%. NMN RCT meta-analysis (2024): improved metabolic markers including glucose, lipids, and oxidative stress ([PMID 39531138](https://pubmed.ncbi.nlm.nih.gov/39531138/)). IV NAD+ widely used in clinic for energy, cognition, addiction support. |
+| **Efficacy Data** | NMN: improved muscle insulin sensitivity in prediabetic women ([PMID 33888596](https://pubmed.ncbi.nlm.nih.gov/33888596/), Science 2021). NR: elevated blood NAD+ 40–90%. NMN RCT meta-analysis (2024): no significant improvements in fasting glucose, insulin, HbA1c, HOMA-IR, or lipid profile in relatively healthy middle-aged/older adults at 250–2000 mg/day for 14 days–12 weeks ([PMID 39531138](https://pubmed.ncbi.nlm.nih.gov/39531138/)). IV NAD+ widely used in clinic for energy, cognition, addiction support. |
 | **Human Benefits** | Cellular energy restoration; improved mitochondrial function; potential anti-aging; DNA repair; metabolic health; insulin sensitization. |
 | **Typical Dosing** | IV NAD+: 250–750 mg infusion (clinic-administered, slow). SC/IM: 50–200 mg daily. Oral NMN: 500–1000 mg daily. Oral NR: 300–1000 mg daily. |
 | **Side Effects** | IV: flushing, nausea, transient intense physiological anxiety, chest pressure, abdominal cramping (especially with rapid infusion). SC: injection pain. Oral: GI discomfort. Theoretical: supporting cancer cell metabolism. |
@@ -689,8 +689,8 @@ Every compound contains 13 standardized fields. All PubMed references link direc
 |---|---|
 | **Also Known As** | FOXO4-D-Retro-Inverso, senolytic peptide |
 | **Category** | Senolytic Peptide |
-| **Mechanism** | D-retro-inverso peptide disrupting FOXO4-p53 interaction in senescent cells. Frees p53 to trigger selective apoptosis in senescent ("zombie") cells. ([PMID 28340347](https://pubmed.ncbi.nlm.nih.gov/28340347/)) |
-| **Efficacy Data** | Preclinical: selectively induced apoptosis of senescent cells in aged mice. Restored fitness, fur density, renal function. No human data. ([PMID 28340347](https://pubmed.ncbi.nlm.nih.gov/28340347/), Baar et al., Cell 2017) |
+| **Mechanism** | D-retro-inverso peptide disrupting FOXO4-p53 interaction in senescent cells. Frees p53 to trigger selective apoptosis in senescent ("zombie") cells. ([PMID 28340339](https://pubmed.ncbi.nlm.nih.gov/28340339/)) |
+| **Efficacy Data** | Preclinical: selectively induced apoptosis of senescent cells in aged mice. Restored fitness, fur density, renal function. No human data. ([PMID 28340339](https://pubmed.ncbi.nlm.nih.gov/28340339/), Baar et al., Cell 2017) |
 | **Human Benefits** | Theoretical: selective senescent cell elimination; age-related disease reversal; organ rejuvenation. |
 | **Typical Dosing** | Community: 5–10 mg SC 3×/week for 3 weeks (mouse-protocol extrapolation only). |
 | **Side Effects** | Unknown in humans. Theoretical: off-target effects on healthy cells. ⚠ **High counterfeit rate:** 46-aa length with required D-amino acids makes correct synthesis prohibitively expensive — widespread dangerous counterfeits on grey market. |
@@ -698,7 +698,7 @@ Every compound contains 13 standardized fields. All PubMed references link direc
 | **Safety Rating** | ★☆☆☆☆ |
 | **Legal Status** | Not approved. Research only. [PeptideCritic](https://peptidecritic.com/peptides/foxo4-dri). |
 | **Price Range** | Research: $10–$50/mg (most expensive peptide category; high fake rate). |
-| **Key References** | [PMID 28340347](https://pubmed.ncbi.nlm.nih.gov/28340347/) (Baar et al., Cell 2017) |
+| **Key References** | [PMID 28340339](https://pubmed.ncbi.nlm.nih.gov/28340339/) (Baar et al., Cell 2017) |
 | **Social Media Signals** | 🔥 Moderate — Counterfeit concerns and cost are primary barriers. |
 
 ---
@@ -762,7 +762,7 @@ Every compound contains 13 standardized fields. All PubMed references link direc
 | **Safety Rating** | ★★★★★ |
 | **Legal Status** | FDA-approved (Rx) for premenopausal HSDD. Off-label male use widespread but not approved. [PeptideCritic](https://peptidecritic.com/peptides/pt-141). |
 | **Price Range** | Vyleesi: ~$900/8 doses. Research: $2–$15/mg. |
-| **Key References** | [PMID 31599840](https://pubmed.ncbi.nlm.nih.gov/31599840/) (RECONNECT Phase 3 NEJM) · [PMID 31599847](https://pubmed.ncbi.nlm.nih.gov/31599847/) (Long-term safety) · [PMID 14963471](https://pubmed.ncbi.nlm.nih.gov/14963471/) (Male Phase 1) |
+| **Key References** | [PMID 31599840](https://pubmed.ncbi.nlm.nih.gov/31599840/) (RECONNECT Phase 3, Obstet Gynecol 2019) · [PMID 31599847](https://pubmed.ncbi.nlm.nih.gov/31599847/) (Long-term safety) · [PMID 14963471](https://pubmed.ncbi.nlm.nih.gov/14963471/) (Male Phase 1) |
 | **Social Media Signals** | 🔥 Moderate — Libido enhancement reports in both sexes. Nausea management discussed. Growing male use community. |
 
 ---
@@ -1225,12 +1225,14 @@ All PMIDs verified against live PubMed database. New entries added from v4.0 and
 | 34798060 | Cagrilintide for weight management — Phase 2 (Lancet) | Cagrilintide | [PubMed](https://pubmed.ncbi.nlm.nih.gov/34798060/) |
 | 40544433 | CagriSema in adults with overweight/obesity (REDEFINE 1, NEJM 2025) | CagriSema | [PubMed](https://pubmed.ncbi.nlm.nih.gov/40544433/) |
 | 40544432 | CagriSema in T2DM (REDEFINE 2) | CagriSema | [PubMed](https://pubmed.ncbi.nlm.nih.gov/40544432/) |
-| 41109426 | Eloralintide Phase 2 — selective amylin agonist (Lancet 2025) | Eloralintide | [PubMed](https://pubmed.ncbi.nlm.nih.gov/41109426/) |
+| 41207310 | Eloralintide Phase 2 — selective amylin agonist, 48-wk RCT (Lancet 2025) | Eloralintide | [PubMed](https://pubmed.ncbi.nlm.nih.gov/41207310/) |
 | 40960239 | Orforglipron Phase 3 ATTAIN-1 (NEJM 2025) | Orforglipron | [PubMed](https://pubmed.ncbi.nlm.nih.gov/40960239/) |
-| 18950853 | Tesofensine bodyweight loss — Phase 2 (Lancet) | Tesofensine | [PubMed](https://pubmed.ncbi.nlm.nih.gov/18950853/) |
-| 25038357 | Tesamorelin visceral fat and liver fat reduction (JAMA) | Tesamorelin | [PubMed](https://pubmed.ncbi.nlm.nih.gov/25038357/) |
+| 18950853 | Tesofensine bodyweight loss −9.2% at 0.5 mg — Phase 2 (Lancet 2008) | Tesofensine | [PubMed](https://pubmed.ncbi.nlm.nih.gov/18950853/) |
+| 25038357 | Tesamorelin visceral fat and liver fat reduction (JAMA 2014) | Tesamorelin | [PubMed](https://pubmed.ncbi.nlm.nih.gov/25038357/) |
+| 20101189 | Tesamorelin ~18% VAT reduction at 12 months (Falutz, JAIDS 2010) | Tesamorelin | [PubMed](https://pubmed.ncbi.nlm.nih.gov/20101189/) |
 | 39813152 | Tesamorelin neurocognitive impairment in HIV | Tesamorelin | [PubMed](https://pubmed.ncbi.nlm.nih.gov/39813152/) |
-| 9467534 | MK-677 reverses diet-induced catabolism | MK-677 | [PubMed](https://pubmed.ncbi.nlm.nih.gov/9467534/) |
+| 9467534 | MK-677 reverses diet-induced nitrogen catabolism (JCEM 1998) | MK-677 | [PubMed](https://pubmed.ncbi.nlm.nih.gov/9467534/) |
+| 9467542 | MK-677 increases fat-free mass and energy expenditure (Svensson, JCEM 1998) | MK-677 | [PubMed](https://pubmed.ncbi.nlm.nih.gov/9467542/) |
 | 9285939 | GHRP-2 vs Hexarelin human comparison study | GHRP-2/Hexarelin | [PubMed](https://pubmed.ncbi.nlm.nih.gov/9285939/) |
 | 30915550 | BPC 157 musculoskeletal healing review | BPC-157 | [PubMed](https://pubmed.ncbi.nlm.nih.gov/30915550/) |
 | 19668473 | Thymosin beta 4 corneal wound healing (RGN-259) | TB-500 | [PubMed](https://pubmed.ncbi.nlm.nih.gov/19668473/) |
@@ -1240,12 +1242,12 @@ All PMIDs verified against live PubMed database. New entries added from v4.0 and
 | 14969422 | Selank and tuftsin family in adaptive behavior | Selank | [PubMed](https://pubmed.ncbi.nlm.nih.gov/14969422/) |
 | 25187433 | ⚠ Dihexa synaptogenesis (RETRACTED 2025) | Dihexa | [PubMed](https://pubmed.ncbi.nlm.nih.gov/25187433/) |
 | 40312093 | Retraction notice for Dihexa synaptogenesis study | Dihexa | [PubMed](https://pubmed.ncbi.nlm.nih.gov/40312093/) |
-| 32068002 | Elamipretide in heart failure (PROGRESS-HF, JACC) | SS-31 | [PubMed](https://pubmed.ncbi.nlm.nih.gov/32068002/) |
+| 32068002 | Elamipretide in heart failure (PROGRESS-HF, J Card Fail 2020) | SS-31 | [PubMed](https://pubmed.ncbi.nlm.nih.gov/32068002/) |
 | 25738459 | MOTS-c promotes metabolic homeostasis (Cell Metabolism 2015) | MOTS-c | [PubMed](https://pubmed.ncbi.nlm.nih.gov/25738459/) |
 | 33888596 | NMN increases muscle insulin sensitivity in prediabetic women (Science 2021) | NMN/NAD+ | [PubMed](https://pubmed.ncbi.nlm.nih.gov/33888596/) |
-| 39531138 | NMN glucose/lipid metabolism meta-analysis (2024) | NMN/NAD+ | [PubMed](https://pubmed.ncbi.nlm.nih.gov/39531138/) |
-| 28340347 | FOXO4-DRI senolytic cell elimination (Baar et al., Cell 2017) | FOXO4-DRI | [PubMed](https://pubmed.ncbi.nlm.nih.gov/28340347/) |
-| 31599840 | Bremelanotide RECONNECT Phase 3 (NEJM 2019) | PT-141 | [PubMed](https://pubmed.ncbi.nlm.nih.gov/31599840/) |
+| 39531138 | NMN meta-analysis: no significant metabolic benefits (Curr Diabetes Rep 2024) | NMN/NAD+ | [PubMed](https://pubmed.ncbi.nlm.nih.gov/39531138/) |
+| 28340339 | Targeted Apoptosis of Senescent Cells Restores Tissue Homeostasis (Baar et al., Cell 2017) | FOXO4-DRI | [PubMed](https://pubmed.ncbi.nlm.nih.gov/28340339/) |
+| 31599840 | Bremelanotide RECONNECT Phase 3 (Obstet Gynecol 2019) | PT-141 | [PubMed](https://pubmed.ncbi.nlm.nih.gov/31599840/) |
 | 31599847 | Bremelanotide long-term safety | PT-141 | [PubMed](https://pubmed.ncbi.nlm.nih.gov/31599847/) |
 | 14963471 | Bremelanotide Phase 1 male safety trial | PT-141 | [PubMed](https://pubmed.ncbi.nlm.nih.gov/14963471/) |
 | 26192876 | Kisspeptin-54 IVF oocyte maturation trigger | Kisspeptin | [PubMed](https://pubmed.ncbi.nlm.nih.gov/26192876/) |
@@ -1301,14 +1303,14 @@ All PMIDs verified against live PubMed database. New entries added from v4.0 and
 **Compounds:** 70+ entries across 12 categories + 10 bioregulators
 **New to v5.0:** Eloralintide, Orforglipron (FDA-approved April 1 2026), GHRP-2/6/Hexarelin, HGH/Somatropin, DSIP, Humanin, VIP, Triptorelin, SLU-PP-332, PE-22-28, PNC-27, GW-0742
 **Updated in v5.0:** Retatrutide (TRIUMPH-4 Phase 3), CagriSema (REDEFINE 1/2/4), BPC-157 (FDA compounding ban + DOJ enforcement), MK-677 (diabetogenic downgrade), Tesofensine (safety downgrade), Dihexa (primary paper RETRACTED), SS-31 (FDA vendor enforcement), LL-37 (cytotoxicity warning + compounding ban)
-**Verification:** All PubMed IDs tested against live database. FDA approval status current as of April 1, 2026.
+**Verification:** All PubMed IDs tested against live database April 1, 2026. v5.0 corrections: 7 critical data errors fixed (survodutide dose/estimand, CagriSema estimand, cagrilintide dose, tesofensine %, NMN meta-analysis conclusions, eloralintide PMID, FOXO4-DRI PMID), 4 journal attributions corrected, orforglipron pricing/rating/dosing updated. FDA approval status current as of April 1, 2026.
 **Sources:** [PeptideCritic](https://peptidecritic.com) · [Finnrick Analytics](https://www.finnrick.com/vendors) · [GLP-1 Forum](https://glp1forum.com) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/) · [Wikipedia](https://en.wikipedia.org) · [ClinicalTrials.gov](https://clinicaltrials.gov) · [FDA.gov](https://www.fda.gov)
 
 ### Disclaimers
 
 1. **Not Medical Advice.** This document is for informational and educational purposes only. Consult qualified healthcare professionals before using any compound.
 
-2. **Research Use Only.** Many compounds are not FDA-approved and are sold as research chemicals. Use may be illegal in some jurisdictions. The FDA compounding bans on BPC-157, TB-500, LL-37, and Thymosin Alpha-1 are in active enforcement.
+2. **Research Use Only.** Many compounds are not FDA-approved and are sold as research chemicals. Use may be illegal in some jurisdictions. The FDA compounding bans on BPC-157, TB-500, and LL-37 remain in active enforcement as of April 2026. Thymosin Alpha-1 was removed from Category 2 in Sept 2024. ⚠ Potential reclassification of some Category 2 peptides pending per Feb 2026 HHS announcement — not yet formalized.
 
 3. **No Guarantee of Accuracy.** Information verified as of April 1, 2026. Peptide research evolves rapidly; verify time-sensitive regulatory and clinical trial information at source.
 
